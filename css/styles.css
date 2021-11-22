@@ -1,0 +1,209 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #24282b;
+    align-items: center;
+    border-bottom:solid 4px #1293d4;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+span{
+    color: #1293d4;
+}
+h1{
+    color: white;
+}
+.cabecera h1{
+    font-size: 70px;
+}
+.textoCabecera{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    gap: 20px;
+}
+.menuHeader{
+    display: flex;
+    gap: 20px;
+}
+.menuHeader a:hover{
+    color: #1293d4;
+}
+.cabecera{
+    text-align: center;
+    height: 550px;
+    background: url(../images/cabecera.jpg) 0 -460px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cabecera p{
+    color: white;
+}
+.suscribete{
+    background-color: #24282b;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.suscribete h1{
+    font-size: 24px;
+}
+input{
+    height: 30px;
+    width: 250px;
+}
+button{
+    background-color: rgb(232 73 29);
+    border: none;
+    height: 30px;
+    width: 100px;
+    color: white;
+}
+.banner{
+    height: 370px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    background-color: #f4f4f4;
+}
+.logoHtml{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 360px;
+}
+.logoCss{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 360px;
+}
+.logoBrush{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 360px;
+}
+.banner img{
+    height: 150px;
+    width: 150px;
+}
+.banner h1{
+    color: black;
+}
+.copyRight{
+    height: 80px;
+    background-color: rgb(18 147 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.mainNosotros{
+    display: flex;
+    font-size: 14px;
+    flex-direction: row;
+    gap: 20px;
+    height: auto;
+    padding: 10px 150px;
+    background-color: #f4f4f4;
+}
+.mainNosotros h1{
+    color: black;
+}
+.izNosotros{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 20px;
+}
+.pSubrayado{
+    width: 100%;
+    height: auto;
+    background-color: rgb(53, 66, 74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    color: white;
+}
+.drNosotros{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    gap: 20px;
+
+}
+.subDrNosotros{
+    background-color: rgb(53, 66, 74);
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    color: white;
+    padding: 15px 15px 15px 15px;
+
+}   
+.tarjeta{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    gap: 35px;
+    background-color: #e6e6e6;
+}
+.izServicios{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px 20px;
+}
+.izServicios input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+#mensaje{
+    height: 150px;
+}
+#buttonContatcto{
+    width: 100%;
+}
+.imagenContacto img{
+    width: 100%;
+    height: auto;
+}
+#tituloServicios{
+    margin-bottom: 20px;
+}
