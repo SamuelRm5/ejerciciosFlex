@@ -77,29 +77,16 @@ button{
     color: white;
 }
 .banner{
-    height: 370px;
+    height: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     font-size: 14px;
     background-color: #f4f4f4;
+    padding: 30px 3px;
 }
-.logoHtml{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    width: 360px;
-}
-.logoCss{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    width: 360px;
-}
-.logoBrush{
+.logos{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -206,4 +193,94 @@ button{
 }
 #tituloServicios{
     margin-bottom: 20px;
+}
+
+@media screen and (max-width:1200px) {
+    .cabecera {
+        background: url(../images/cabecera.jpg) 0 -120px;
+        background-size: cover;
+    }
+    .cabecera p {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:992px) {
+    .logos{
+        width: 200px;
+    }
+    .cabecera {
+        background: url(../images/cabecera.jpg) 0 -120px;
+        background-size: cover;
+        height: 400px;
+    }
+    .cabecera h1 {
+        font-size: 60px;
+    }
+    .cabecera p {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .cabecera h1 {
+        font-size: 50px;
+    }
+    .cabecera {
+        background: url(../images/cabecera.jpg) 0 -53px;
+        background-size: cover;
+        height: 320px;
+    }
+    .suscribete h1 {
+        font-size: 20px;
+    }
+    .menuHeader {
+        gap: 15px;
+        font-size: 13px;
+    }
+    button {
+        width: 90px;
+    }
+    input {
+        width: 200px;
+    }
+    .cabecera p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:576px){
+    header a{
+        font-size: 12px;
+    }
+    header h1{
+        font-size: 30px;
+    }
+    .cabecera h1 {
+        font-size: 40px;
+    }
+    .cabecera p {
+        font-size: 14px;
+    }
+    .cabecera {
+        height: 250px;
+    }
+    .suscribete h1 {
+        font-size: 16px;
+    }
+    input {
+        width: 150px;
+    }
+    button {
+        width: 75px;
+    }
+    .menuHeader {
+        gap: 10px;
+    }
+    .banner{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .logos {
+        width: 500px;
+    }
 }
