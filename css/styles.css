@@ -219,8 +219,11 @@ button{
     .cabecera p {
         font-size: 17px;
     }
+    .mainNosotros {
+        padding: 10px 85px;
+    }
+    
 }
-
 @media screen and (max-width:768px){
     .cabecera h1 {
         font-size: 50px;
@@ -245,6 +248,9 @@ button{
     }
     .cabecera p {
         font-size: 15px;
+    }
+    .mainNosotros {
+        padding: 10px 40px;
     }
 }
 
@@ -282,5 +288,30 @@ button{
     }
     .logos {
         width: 500px;
+    }
+    .izNosotros {
+        width: 100%;
+    }
+    .mainNosotros {
+        flex-direction: column;
+    }
+    .drNosotros {
+        width: 100%;
+    }
+    .izServicios {
+        width: 100;
+    }
+    .izServicios {
+        width: 100%;
+    }
+    .imagenContacto img {
+        width: 70%;
+        height: auto;
+    }
+    .subDrNosotros {
+        text-align: left;
+    }
+    .drNosotros {
+        text-align: center;
     }
 }
